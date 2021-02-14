@@ -232,7 +232,6 @@ if (!empty($decode[5])) {
   <ul class='check-list'></ul>
   <div  class="send-all hide">
   <p>Please check all readings before pressing submit below.</p>
-  <!-- <input id="submit-php"  type="submit" value="Submit"> -->
   <button id="submit-php">Submit</button>
   </div>
   <form class="rm1-47-form" name="47 Rm1" autocomplete="off" >

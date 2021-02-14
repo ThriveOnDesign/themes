@@ -209,11 +209,12 @@ if ( get_field('booking_form') ) {
 	* Load my custom JavaScript files
   */
 
- function thrive_front_end_scripts() {
-	wp_enqueue_script( 'thrive_js', get_template_directory_uri().'/assets/js/thrive-javascript.js', array( 'jquery' ), time(), true );
+ 	// function thrive_front_end_scripts() {
+	// 	wp_enqueue_script( 'thrive_js', get_template_directory_uri().'/assets/js/thrive-javascript.js', array( 'jquery' ), time(), true );
 	
-}
-add_action( 'wp_enqueue_scripts', 'thrive_front_end_scripts' );
+	// }	
+	
+	// add_action( 'wp_enqueue_scripts', 'thrive_front_end_scripts' );
 
 	// echo '<pre>';
 	// print_r(get_template_directory_uri(  ).'/includes');
